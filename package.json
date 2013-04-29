@@ -1,0 +1,14 @@
+{
+  "name": "ember-onhas",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "component": "*",
+    "mocha-phantomjs": "*"
+  },
+  "license": "MIT"
+}

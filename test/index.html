@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tests</title>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../build/build.js"></script>
+    <script type="text/javascript">
+      window.assert = require('timoxley-assert');
+    </script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script type="text/javascript">
+      mocha.setup('bdd');
+    </script>
+    <script src="index.js"></script><script type="text/javascript">
+      if (window.mochaPhantomJS) {
+        mochaPhantomJS.run();
+      } else {
+        mocha.run();
+      }
+    </script>
+  </body>
+</html>
