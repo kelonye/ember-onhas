@@ -1,4 +1,5 @@
 require('ember');
+assert = require('timoxley-assert');
 
 Book = Em.Object.extend(require('ember-onhas'), {
   id: null,
