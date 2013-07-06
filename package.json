@@ -1,14 +1,12 @@
 {
   "name": "ember-onhas",
   "version": "0.0.1",
-  "description": "",
+  "description": "Invoke a function if an object has a property or as soon as it acquires the property.",
   "dependencies": {
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*",
-    "component": "*",
-    "mocha-phantomjs": "*"
+    "component-hooks": "*"
   },
   "license": "MIT"
 }

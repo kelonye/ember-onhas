@@ -8,9 +8,6 @@
   "development": {
     "timoxley/assert": "*"
   },
-  "keywords": [
-    "ember"
-  ],
   "main": "lib/index.js",
   "scripts": [
     "lib/index.js"
