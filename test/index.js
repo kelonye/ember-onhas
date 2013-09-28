@@ -22,11 +22,10 @@ describe('ember-onhas', function(){
   it('should call fn as soon as target acquires property', function(done){
     Book.create({
       init: function(){
-        var that = this;
         this.onhas('id', this.setCreated);
         assert.equal(this.get('created'), false);
-        that.set('id', 1);
-        assert.equal(that.get('created'), true);
+        this.set('id', 1);
+        assert.equal(this.get('created'), true);
         done();
       }
     });
