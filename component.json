@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Invoke a function if an object has a property or as soon as it acquires the property.",
   "dependencies": {
-    "kelonye/ember": "*"
+    "kelonye/ember": "1.0.0-rc6"
   },
   "development": {
     "timoxley/assert": "*"
