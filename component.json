@@ -1,9 +1,9 @@
 {
   "name": "ember-onhas",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Invoke a function if an object has a property or as soon as it acquires the property.",
   "dependencies": {
-    "kelonye/ember": "1.2.0"
+    "kelonye/ember": "1.7.0"
   },
   "development": {
     "timoxley/assert": "*"

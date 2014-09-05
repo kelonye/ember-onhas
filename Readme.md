@@ -3,11 +3,8 @@ Install
   
     $ component install kelonye/ember-onhas
 
-
 Example
 ---
-
-See [demo](http://component-kelonye.rhcloud.com/#/5246e00fa0e4a9f96b00000e)
 
 ```javascript
 var onhas = require('ember-onhas');
