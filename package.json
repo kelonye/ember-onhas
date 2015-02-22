@@ -2,8 +2,8 @@
   "name": "ember-onhas",
   "private": true,
   "dependencies": {
-    "mocha": "*",
-    "component-hooks": "0.2.5"
+    "component-hooks": "0.2.6",
+    "mocha": "^2.1.0"
   },
   "license": "MIT"
 }
